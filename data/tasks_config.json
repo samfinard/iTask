@@ -1,0 +1,6 @@
+[
+    {"name":"mop","day":"sunday","frequency":"weekly","description":"Mop all floors (after floors are cleared and vacuumed)"},
+    {"name":"bathrooms","day":"sunday","frequency":"weekly","description":"Clean all toilets and bathroom floors."},
+    {"name":"robovac","day":"sunday","frequency":"weekly","description":"Empty robovac bin and clean filters."},
+    {"name":"dishwasher","day":"sunday","frequency":"weekly","description":"Clean dishwasher filter and run cycle with white vinegar, then rinse with baking soda."}
+]
