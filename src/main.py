@@ -1,10 +1,14 @@
 from send_message import send_message
+import os
+from dotenv import load_dotenv
 
 
 def main() -> None:
-    for number in ["9173274878", "7183950316"]:
+    phone_numbers = os.getenv("PHONE_NUMBERS").split(",")
+    for number in phone_numbers:
         send_message("test", number)
 
 
 if __name__ == "__main__":
+    load_dotenv()
     main()
