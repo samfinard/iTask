@@ -9,3 +9,5 @@ iTask is a task management system that notifies users via iMessage when a task i
 - [ ] Add functionality to complete a task and store in sqlite3 database
 - [ ] Add functionality to reschedule a task
 - [ ] Add functionality to delete a task
+- [ ] Create bot apple ID
+- [ ] Add functionality to send message to multiple contacts (difficult)
