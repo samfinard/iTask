@@ -1,9 +1,9 @@
-from send_message import MessageBot
+from send_message import send_message
 
 
 def main() -> None:
-    message_bot = MessageBot()
-    message_bot.send_imessage("test", ["9174992545", "7183950316"])
+    for number in ["9173274878", "7183950316"]:
+        send_message("test", number)
 
 
 if __name__ == "__main__":
